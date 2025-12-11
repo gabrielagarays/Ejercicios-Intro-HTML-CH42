@@ -1,10 +1,9 @@
 ¡Hola!
 
-Aquí hay un par de ejercicios para repasar lo visto en la sesión INTRO WEB 2 - Introducción a HTML.
+Aquí hay un par de ejercicios para repasar los básicos de HTML.
 Por favor, lee atentamente las indicaciones y realiza lo solicitado. 
 
-Debes entregar estos ejercicios en un repositorio tuyo, en la siguiente asignación:
-
+Debes entregar estos ejercicios en un repositorio tuyo, en la siguiente asignación: https://generation.instructure.com/courses/4219/assignments/298194 
 
 Ejercicio 1: Identificar y corregir el documento html.
 Dírigete al archivo llamado "index.html", lee con atención, identifica los errores y corrígelos. 

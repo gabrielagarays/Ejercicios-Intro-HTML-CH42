@@ -1,0 +1,142 @@
+
+:root{
+    --color-primario: #61e6ca; 
+    --color-secundario: #000;
+    --color-texto: #6a70c0; 
+    --color-fondo: #ffff;
+    --color-fondo-imagen: #e0b48f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url("../img/828.jpg");
+    font-family: 'Poppins', sans-serif;
+    padding: 0; 
+}
+main {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/* Modifica el bloque de hola soy */
+.saludo-principal {  
+    margin: 100px auto 0;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+/* Modifica el estilo de hola */
+.saludo {
+    font-size: 4rem; 
+    font-family: 'Geologica', sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+/* Modifica el estilo de soy */
+.saludo span {
+    font-weight: 400;
+    font-size: 0.5em; 
+    color: var(--color-secundario);
+}
+/* Modifica el bloque desde gabriela garay hasta hobbies */
+.hero-content {
+    display: flex;
+    gap: 40px;
+    align-items:center;
+}
+/* Modifica el div de la parte izq */
+.hero-text-container {
+    flex: 20; 
+}
+/* Estilo del nombre Gabriela Garay */
+.nombre {
+    font-family: 'Geologica', sans-serif;
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+/* Modifica el texto seleccionado garay */
+.nombre span {
+    color: var(--color-primario); 
+}
+/* Modifica párrafo de descripción */
+.descripcion {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    color: #333; 
+    font-size: 1rem;
+    line-height: 1.8;
+    background: none;
+    padding: 0;
+    display: block; 
+}
+/* imagen tennis */
+.hero-image-container { 
+    text-align: right;
+}
+.hero-image-container img {
+    width: 300px; 
+    object-fit: cover;
+    border-radius:50%;
+    height: 300px;
+}
+/* Modifica a la seccion hobbies y musica */
+.seccion-hobbies, .seccion-musica {
+    display: inline-block;
+    padding: 15; 
+    margin-top: 0px;
+    padding-top: 0;
+}
+/* Modifica el titulo "mis hobbies" */
+h2 {
+    font-family: 'Geologica', sans-serif;
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+/* Modifica a las listas ordenacdas y desordenadas hobbies y musica */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    margin-top: 15px;
+}
+/* Modifica el contenido de las listas hobbies y musica */
+li {
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+/* Estilo para los elementos de la lista de música */
+.seccion-musica ol li a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
+}
+/* Modifica las etiquetas strong en musica fav*/
+.seccion-musica ol li strong {
+    font-weight: 400;
+    font-style: normal;
+}
+/* Modifica el gabriela garay 2025 de abajo */
+footer {
+    text-align: center;
+    padding: 40px 15px;
+    margin-top: 40px;
+    color: #999;
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+}
+
